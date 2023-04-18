@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "randoms-and-primes"
+version = "0.1.0"
+description = "A study implementation of some PRNG and primality test algorithms"
+authors = ["Alexandre Müller Júnior"]
+readme = "README.md"
+packages = [{include = "randoms_and_primes"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
